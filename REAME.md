@@ -1,5 +1,7 @@
 # Rich text editor
 
+Live demo available at: https://text.adriandomc.com
+
 This is a (very simple) rich text editor written on Javascript, by using Selection and Range API. So far the only way to apply text align and heading is by formatting the first position where the text caret was placed on. The bold, italics and underline styles work as expected by selecting the text you desire to change, however it only works by selecting text inside of a single paragraph/heading.
 
 ## Roadmap?
