@@ -1,0 +1,86 @@
+@media (max-width: 550px) {
+  .texto {
+    width: 80%;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 800px) {
+  .texto {
+    width: 75%;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  .texto {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1201px) {
+  .texto {
+    width: 60%;
+  }
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.texto {
+  background-color: darksalmon;
+  border: 1px solid black;
+  height: 430px;
+  padding: 5px;
+}
+
+.texto>p,
+.texto>h1,
+.texto>h2,
+.texto>h3,
+.texto>h4,
+.texto>h5,
+.texto>h6 {
+  margin: 0;
+}
+
+.botonera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 512px;
+  margin-top: 10px;
+}
+
+.boton {
+  width: 36px;
+  height: 36px;
+  background-color: rgb(247, 175, 87);
+  border: 1px solid darkorange;
+}
+
+.boton:hover {
+  background-color: rgb(255, 194, 120);
+  border: 1px solid darkorange;
+  cursor: pointer;
+}
+
+#h1 {
+  position: relative;
+}
+
+#menu-encabezados {
+  display: none;
+  flex-direction: column;
+  position: relative;
+  top: 3px;
+  gap: 3px;
+}
+
+.debug-log {
+  margin-top: 50px;
+  font-family: monospace;
+}
